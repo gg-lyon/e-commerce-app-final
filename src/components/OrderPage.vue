@@ -60,7 +60,9 @@ export default {
 
  data () {
     return {
-      order: {},
+      order: {
+        items: []
+      },
       products: [],
     };
   },
